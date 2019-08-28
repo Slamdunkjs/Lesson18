@@ -1,0 +1,34 @@
+{
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "extends": "airbnb",
+    "rules": {
+      "func-names": [
+        "error",
+        "never"
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "no-trailing-spaces": [
+        "error",
+        {
+          "skipBlankLines": true
+        }
+      ],
+      "no-use-before-define": [
+        "error",
+        {
+          "functions": false,
+          "classes": true
+        }
+      ],
+      "arrow-parens": [
+        "error",
+        "as-needed"
+      ]
+    }
+  }

@@ -1,0 +1,52 @@
+.square {
+  width: 0;
+  height: 0;
+  /* border: 30px solid #000; */
+  border-width: 30px;
+  border-style: solid;
+  border-color: red;
+  position: absolute;
+}
+
+.circle{
+  width: 0;
+  height: 0;
+  /* border: 30px solid #000; */
+  border-width: 30px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: red;
+  position: absolute;
+}
+
+.rhombus{
+  width: 0;
+  height: 0;
+  /* border: 30px solid #000; */
+  border-width: 30px;
+  border-style: solid;
+  border-color: red;
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+.rhombusText{
+  transform: rotate(-45deg);
+}
+
+.parallelogram{
+  width: 0;
+  height: 0;
+  /* border: 30px solid #000; */
+  border-width: 30px;
+  border-style: solid;
+  border-color: red;
+  transform: skew(-30deg);
+  position: absolute;
+}
+
+.parallelogramText{
+  transform: skew(30deg);
+}
+
+
